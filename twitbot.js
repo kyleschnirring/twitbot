@@ -20,7 +20,6 @@ setInterval(function(){
   var tweets = ids[randomTweet];
   console.log(tweets);
 
-
   Bot.post('statuses/retweet/:id', { id: tweets }, function (err, data, response) {
   console.log(data);
   });
@@ -28,6 +27,5 @@ setInterval(function(){
   while(ids.length > 0) {
     ids.pop();
   }
-
 
 }, 18000000);
