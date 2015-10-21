@@ -2,10 +2,7 @@ var Twit = require("twit");
 
 // Include your access information below
 var Bot = new Twit({
-   consumer_key:         'LEU21rEE7t8AoT6FrgATpgUi7'
-  , consumer_secret:      '7ghVxQnxqcyzsOn0XLTdXoi4qYHBh8MFEsTftzpAzyt4lZG38V'
-  , access_token:         '159317043-fMrDMCbVsFy2LmVf9DAUJC6y5RaxnIPHdM7cK3je'
-  , access_token_secret:  'RCE4szrLjOiJ0uTKbbqPUZYNXytfnvIEgsRNEGicPafRX'
+
 
 });
 
